@@ -4,6 +4,6 @@ services:
   ocr-api:
     build: ./app
     ports:
-      - "5057:5057"
+      - "5058:5058"
     volumes:
       - ./app/uploads:/app/uploads
